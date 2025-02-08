@@ -1,0 +1,15 @@
+// Напишите ваше решение
+ // Вычисляем площадь фанеры для первой коробки
+    double area1 = width1 * length1 + 2 * (width1 * height1) + 2 * (length1 * height1);
+    wood_balance -= area1;
+    cout << "Remaining plywood: " << wood_balance << endl;
+
+    // Вычисляем площадь фанеры для второй коробки
+    double area2 = width2 * length2 + 2 * (width2 * height2) + 2 * (length2 * height2);
+    wood_balance -= area2;
+    cout << "Remaining plywood: " << wood_balance << endl;
+
+    // Вычисляем площадь фанеры для третьей коробки
+    double area3 = width3 * length3 + 2 * (width3 * height3) + 2 * (length3 * height3);
+    wood_balance -= area3;
+    cout << "Remaining plywood: " << wood_balance << endl;
